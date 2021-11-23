@@ -1,0 +1,20 @@
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#board {
+    display: grid;
+    overflow: hidden;
+    border: 6px solid gray;
+}
+
+.cell {
+    /* Used by board grid cells */
+    background-color: black;
+    margin: 0;
+    border: 0;
+}
